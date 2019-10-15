@@ -1,0 +1,51 @@
+.Options {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.optionsBox {
+    position: fixed;
+    top: 26px;
+    left: 50%;
+    width: 390px;
+    height: 185px;
+    padding: 5px;
+    transform: translate(-50%, 0);
+    border: 2px black solid;
+    border-radius: 10px;
+    color: white;
+    background-color: gray;
+}
+
+.optionsBox div {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 17px;
+    height: 17px;
+    border: 1px black solid;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    background-color: black;
+}
+
+.optionsBox table {
+    table-layout:fixed;
+    height: 150px;
+    width: 380px;
+    font-size: 20px;
+}
+
+.firstTd {
+    width: 160px;
+}
+
+.newGame {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 20px;
+}

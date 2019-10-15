@@ -1,0 +1,12 @@
+.App {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    color: white;
+}
+
+.Header {
+    position: relative;
+    height: 30px;
+    z-index: 1;
+}
